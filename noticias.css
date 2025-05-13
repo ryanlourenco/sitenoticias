@@ -50,6 +50,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
   .primeiraNoticia {
@@ -58,6 +59,11 @@ a {
     gap: 20px; 
     margin: 20px;
     justify-content: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-color: black;
+    
   }
   
   .imagem {
@@ -109,7 +115,7 @@ a {
     padding: 15px;
     border-radius: 8px;
     align-items: flex-start;
-    text-decoration: none;
+    
   }
 
   .noticia img {
@@ -169,7 +175,7 @@ a {
 
   .Cartola button {
     padding: 10px 15px;
-    background: #403dec;
+    background: limegreen;
     color: black;
     border: none;
     border-radius: 5px;
@@ -177,7 +183,7 @@ a {
   }
 
   .Cartola button:hover {
-    background: #900;
+    background: lightgreen;
   }
   footer {
     background-color: #076aa3;
